@@ -62,6 +62,8 @@ const createTransport = async (req, res) => {
             Department: transport.organizingDepartment
         };
         sendEmail(emailData);
+         emailData.sendEmail = "mahaboob.m@sece.ac.in";
+        sendEmail(emailData);
 
         res.status(201).json({ message: "Transport created successfully", data: transport });
     } catch (error) {
@@ -100,6 +102,8 @@ const updateTransport = async (req, res) => {
                 sendEmail: user.email
             };
             sendEmail(emailData);
+             emailData.sendEmail = "mahaboob.m@sece.ac.in";
+        sendEmail(emailData);
         } else if (isapproved === 'false') {
             const emailData = {
                 type: "Transport",
@@ -112,6 +116,8 @@ const updateTransport = async (req, res) => {
                 sendEmail: user.email
             };
             sendEmail(emailData);
+             emailData.sendEmail = "mahaboob.m@sece.ac.in";
+        sendEmail(emailData);
         }
 
         res.status(200).json({ message: "Transport updated successfully" });
