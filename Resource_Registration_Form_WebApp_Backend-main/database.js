@@ -11,8 +11,8 @@ unn = process.env.DB_USERNAMEE;//local
 pwdd = process.env.DB_PASSWORDD;
 
 
-const sequelize = new Sequlize("db_aa380b_jeethul", un, pwd, {
-     host: 'mysql5045.site4now.net',
+const sequelize = new Sequlize("db_aa5e01_ragu", un, pwd, {
+     host: 'mysql9001.site4now.net',
    // host: 'localhost',
     dialect: "mysql",
     logging: false,
