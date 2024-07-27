@@ -24,8 +24,8 @@ pwdd = process.env.DB_PASSWORDD;
 // }) 
 // module.exports = sequelize
 
-const sequelize = new Sequlize("db_aa8549_new001", un, pwd, {
-     host: 'mysql8010.site4now.net',
+const sequelize = new Sequlize("db_aab70f_ramkavy", un, pwd, {
+     host: 'mysql8001.site4now.net',
    // host: 'localhost',
     dialect: "mysql",
     logging: false,
